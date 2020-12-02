@@ -1,0 +1,109 @@
+html{
+    height: 100%;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: rgba(252, 183, 183, 0);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.instalogo{
+    background-color: white;
+    align-items: center;
+   padding: 0.5rem;
+}
+.content{
+    
+    background-color: white;
+    height: 555px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footericons{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.home{
+    height: 5%;
+    width: 8%;
+    
+}
+.reels{
+    height: 6%;
+    width:8%;
+    
+   
+}
+.post{
+    height: 3%;
+    width: 10.5%;
+    
+}
+.heart{
+    height: 10%;
+    width: 9.5%;
+    
+}
+.profile{
+    height:2%;
+    width: 11%;   
+}       
+.camera{
+    
+    height:2%;
+    width:7%;
+}
+.logo{
+    height: 4%;
+    width: 28%;
+    margin-left: 6rem;
+}
+.search{
+    height: 2%;
+    width: 20%;
+    margin-right: 0.5rem;
+}
+.message{
+    height : 2%;
+    width: 20%;
+}
+.top-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+.top-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.top-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+header{
+    position: fixed;
+    box-shadow: -1px -4px 15px black;
+}
+footer{
+    box-shadow: 2px 1px 9px black;
+    margin-top: auto;
+}
+.para{
+    font-size: xxx-large;
+    color: orangered;
+
+}
