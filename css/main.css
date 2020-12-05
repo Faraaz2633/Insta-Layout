@@ -28,8 +28,8 @@
     justify-content: center;
 }
 .inner-content{
-    color: rgb(255, 123, 0);
-    font-size: 7vh;
+    color: orangered;
+    font-size: 6.5vh;
     justify-content: center; 
     font-weight: bold;
     font-style: italic;     
@@ -45,6 +45,7 @@ main{
 }
 .bottom{
     padding: 1.5vh;
+    padding-left: 2.5vh;
     justify-content: space-between;
     display: flex;
     box-shadow: 0 0 20px black;
@@ -66,5 +67,7 @@ main{
     width: 8vh;
 }
 .inner-content:hover{
-   color: orangered;
+    color: rgb(255, 123, 0);
+    font-weight: bold;
+    font-style: italic;
 }
