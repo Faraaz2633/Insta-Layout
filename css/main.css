@@ -1,109 +1,70 @@
-html{
-    height: 100%;
-}
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
 }
-body{
-    background: rgba(252, 183, 183, 0);
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
-.instalogo{
-    background-color: white;
-    align-items: center;
-   padding: 0.5rem;
-}
-.content{
-    
-    background-color: white;
-    height: 555px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.footericons{
-    background-color:white;
+.top{
+   
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem;
+    padding: 1.5vh;
+    box-shadow: 0 0 20px black;
 }
-.home{
-    height: 5%;
-    width: 8%;
-    
-}
-.reels{
-    height: 6%;
-    width:8%;
-    
-   
-}
-.post{
-    height: 3%;
-    width: 10.5%;
-    
-}
-.heart{
-    height: 10%;
-    width: 9.5%;
-    
-}
-.profile{
-    height:2%;
-    width: 11%;   
-}       
 .camera{
     
-    height:2%;
-    width:7%;
+    width: 5vh;
 }
 .logo{
-    height: 4%;
-    width: 28%;
-    margin-left: 6rem;
+    width: 19vh;
 }
 .search{
-    height: 2%;
-    width: 20%;
-    margin-right: 0.5rem;
+    width: 5vh;
 }
 .message{
-    height : 2%;
-    width: 20%;
+    width: 5vh;
 }
-.top-left{
+.content{
     display: flex;
-    justify-content: left;
     align-items: center;
-    margin-left: 0.5rem;
-}
-.top-middle{
-    display: flex;
     justify-content: center;
-    align-items: center;
-    
-
 }
-.top-right{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 0.5rem;
+.inner-content{
+    color: rgb(255, 123, 0);
+    font-size: 7vh;
+    justify-content: center; 
+    font-weight: bold;
+    font-style: italic;     
 }
 header{
-    position: fixed;
-    box-shadow: -1px -4px 15px black;
+    margin: 0;
+    padding: 0;
 }
-footer{
-    box-shadow: 2px 1px 9px black;
-    margin-top: auto;
+main{
+    justify-content: center;
+    display: flex;
+    min-height: calc(100vh - 34.672px - 76.7812px);
 }
-.para{
-    font-size: xx-large;
-    color: orangered;
+.bottom{
+    padding: 1.5vh;
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 0 0 20px black;
+}
 
+.home{
+    width:5vh;
+}
+.reels{
+    width: 5vh;
+}
+.post{
+    width: 7vh;
+}
+.activity{
+    width: 6vh;
+}
+.profile{
+    width: 8vh;
+}
+.inner-content:hover{
+   color: orangered;
 }
