@@ -5,9 +5,11 @@
 .top{
    
     display: flex;
+    position: fixed;
     justify-content: space-between;
     padding: 1.5vh;
     box-shadow: 0 0 20px black;
+    width: 100%;
 }
 .camera{
     
@@ -29,10 +31,13 @@
 }
 .inner-content{
     color: orangered;
-    font-size: 6.5vh;
+    font-size: 12vw;
     justify-content: center; 
     font-weight: bold;
     font-style: italic;     
+}
+.right{
+    padding-right: 1.5rem;
 }
 header{
     margin: 0;
@@ -41,14 +46,17 @@ header{
 main{
     justify-content: center;
     display: flex;
-    min-height: calc(100vh - 34.672px - 76.7812px);
+    min-height: calc(100vh - 34.672px - 38.7812px);
 }
 .bottom{
     padding: 1.5vh;
     padding-left: 2.5vh;
+    padding-right: 1.5vh;
     justify-content: space-between;
     display: flex;
     box-shadow: 0 0 20px black;
+    position: fixed;
+    width: 100%;
 }
 
 .home{
@@ -65,9 +73,70 @@ main{
 }
 .profile{
     width: 8vh;
+    padding-right: 1.5rem;
 }
 .inner-content:hover{
     color: rgb(255, 123, 0);
     font-weight: bold;
     font-style: italic;
+}
+@media (max-width : 1500px){
+    .inner-content{
+        color: orangered;
+        font-size: 90px;
+        justify-content: center; 
+        font-weight: bold;
+        font-style: italic;     
+    }
+}
+@media (max-width : 800px){
+    .inner-content{
+        color: orangered;
+        font-size: 12vw;
+        justify-content: center; 
+        font-weight: bold;
+        font-style: italic;     
+    }
+}
+
+@media (max-width : 425px){
+    .home{
+        width: 4vh;
+    }
+    .reels{
+        width: 4vh;
+    }
+    .post{
+        width: 6vh;
+    }
+    .activity{
+        width: 5vh;
+    }
+    .profile{
+        width: 7vh;
+    }
+    .camera{
+    
+        width: 4vh;
+    }
+    .logo{
+        width: 17vh;
+    }
+    .search{
+        width: 4vh;
+    }
+    .message{
+        width: 4vh;
+    }
+    .inner-content{
+        color: orangered;
+        font-size: 11vw;
+        justify-content: center; 
+        font-weight: bold;
+        font-style: italic;     
+    }
+
+}
+@media(max-width : 320px){
+
 }
