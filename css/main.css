@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.top{
-   
+.top{   
     display: flex;
     position: fixed;
     justify-content: space-between;
@@ -11,8 +10,7 @@
     box-shadow: 0 0 20px black;
     width: 100%;
 }
-.camera{
-    
+.camera{    
     width: 5vh;
 }
 .logo{
